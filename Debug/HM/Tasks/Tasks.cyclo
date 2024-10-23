@@ -1,0 +1,5 @@
+../HM/Tasks/Tasks.c:30:6:initTasks	4
+../HM/Tasks/Tasks.c:53:7:adc_handler	2
+../HM/Tasks/Tasks.c:75:7:uart_handler	5
+../HM/Tasks/Tasks.c:123:6:switch_handler	5
+../HM/Tasks/Tasks.c:161:6:setPWM	1
