@@ -1,0 +1,2 @@
+../HM/Drivers/Adc.c:28:6:readFromAdc	40	static
+../HM/Drivers/Adc.c:43:6:updateSensors	16	static
