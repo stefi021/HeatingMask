@@ -25,7 +25,10 @@ extern TIM_HandleTypeDef htim2;
 struct ntc_sensor ntc_sensors[6];
 uint8_t msg[17];
 char myString[3];
+uint8_t data[6] = {0};
+int i = 0;
 
+void UART_Clear_Receive_Buffer(UART_HandleTypeDef *huart);
 
 void initTasks(void)
 {
@@ -74,50 +77,11 @@ void initTasks(void)
 
  void uart_handler(void *parameters)
 {
-		static char ch = '1';
-		while(1)
-		{
-			ch= GetChar();
-			if(ch == '1')
-			{
-				sendDataOverBT(ntc_sensors);
-	//			for(i = 0; i < 6; i++)
-	//			{
-	//				sprintf(msg,"TEMP[%d] = %.2f\n\r",i, ntc_sensors[i].Temp_C);
-	//				HAL_UART_Transmit(&huart2, msg, sizeof(msg), 10);
-	//			}
-			}
-			else if(ch == '2')
-			{
-				sprintf((char*)msg,"Write MAX TEMP:");
-				HAL_UART_Transmit(&huart1, msg, sizeof(msg)+5, HAL_MAX_DELAY);
-				//HAL_UART_Transmit(&huart1, (uint8_t*)"\r\n", 3, 1000);
-
-				GetString(myString, 3);
-				MAX_TEMP = atoi(myString);
-
-			}
-			else if(ch == '3')
-				setPWM(100);
-//				HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_SET);
-//				setPWM(100);
-
-			else if(ch == '4')
-				setPWM(0);
-//				HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_RESET);
-//				setPWM(0);
-//			else if(ch == '5')
-//			{
-//				sprintf((char*)msg,"Write MAX TEMP:");
-//				HAL_UART_Transmit(&huart1, msg, sizeof(msg)+5, HAL_MAX_DELAY);
-//				//HAL_UART_Transmit(&huart1, (uint8_t*)"\r\n", 3, 1000)
-//				GetString(myString, 3);
-//				PWM = atoi(myString);
-//				setPWM((float)PWM);
-//			}
-
-			vTaskDelay(750);
-		}
+	while(1)
+	{
+		HAL_UART_Receive_IT(&huart1, data, sizeof(data));
+		vTaskDelay(750);
+	}
 }
 
 void switch_handler(void *parameters)
@@ -167,5 +131,12 @@ void setPWM(float dc)
 
 }
 
-
-
+void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
+{
+    if (huart->Instance == USART1) // Check if the interrupt is from USART1
+    {
+    	for(i = 0; i < 6; i++){
+    		data[i] = 0;
+    	}
+    }
+}

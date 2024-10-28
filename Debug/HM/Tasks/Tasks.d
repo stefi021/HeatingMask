@@ -1,13 +1,13 @@
 HM/Tasks/Tasks.o: ../HM/Tasks/Tasks.c \
- C:/Users/Z0212095/STM32CubeIDE/workspace_1.14.0/HeatingMask/ThirdParty/FreeRTOS/include/FreeRTOS.h \
- C:/Users/Z0212095/STM32CubeIDE/workspace_1.14.0/HeatingMask/ThirdParty/FreeRTOS/FreeRTOSConfig.h \
- C:/Users/Z0212095/STM32CubeIDE/workspace_1.14.0/HeatingMask/ThirdParty/FreeRTOS/include/projdefs.h \
- C:/Users/Z0212095/STM32CubeIDE/workspace_1.14.0/HeatingMask/ThirdParty/FreeRTOS/include/portable.h \
- C:/Users/Z0212095/STM32CubeIDE/workspace_1.14.0/HeatingMask/ThirdParty/FreeRTOS/include/deprecated_definitions.h \
- C:/Users/Z0212095/STM32CubeIDE/workspace_1.14.0/HeatingMask/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F/portmacro.h \
- C:/Users/Z0212095/STM32CubeIDE/workspace_1.14.0/HeatingMask/ThirdParty/FreeRTOS/include/mpu_wrappers.h \
- C:/Users/Z0212095/STM32CubeIDE/workspace_1.14.0/HeatingMask/ThirdParty/FreeRTOS/include/task.h \
- C:/Users/Z0212095/STM32CubeIDE/workspace_1.14.0/HeatingMask/ThirdParty/FreeRTOS/include/list.h \
+ /home/stefan/STM32CubeIDE/workspace_1.16.0/HeatingMask/ThirdParty/FreeRTOS/include/FreeRTOS.h \
+ /home/stefan/STM32CubeIDE/workspace_1.16.0/HeatingMask/ThirdParty/FreeRTOS/FreeRTOSConfig.h \
+ /home/stefan/STM32CubeIDE/workspace_1.16.0/HeatingMask/ThirdParty/FreeRTOS/include/projdefs.h \
+ /home/stefan/STM32CubeIDE/workspace_1.16.0/HeatingMask/ThirdParty/FreeRTOS/include/portable.h \
+ /home/stefan/STM32CubeIDE/workspace_1.16.0/HeatingMask/ThirdParty/FreeRTOS/include/deprecated_definitions.h \
+ /home/stefan/STM32CubeIDE/workspace_1.16.0/HeatingMask/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F/portmacro.h \
+ /home/stefan/STM32CubeIDE/workspace_1.16.0/HeatingMask/ThirdParty/FreeRTOS/include/mpu_wrappers.h \
+ /home/stefan/STM32CubeIDE/workspace_1.16.0/HeatingMask/ThirdParty/FreeRTOS/include/task.h \
+ /home/stefan/STM32CubeIDE/workspace_1.16.0/HeatingMask/ThirdParty/FreeRTOS/include/list.h \
  ../Core/Inc/main.h ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
  ../Core/Inc/stm32f4xx_hal_conf.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
@@ -40,18 +40,18 @@ HM/Tasks/Tasks.o: ../HM/Tasks/Tasks.c \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
  ../HM/Tasks/Tasks.h \
- C:/Users/Z0212095/STM32CubeIDE/workspace_1.14.0/HeatingMask/HM/Drivers/Adc.h \
- C:/Users/Z0212095/STM32CubeIDE/workspace_1.14.0/HeatingMask/HM/Drivers/HC05.h \
- C:/Users/Z0212095/STM32CubeIDE/workspace_1.14.0/HeatingMask/HM/Drivers/Adc.h
-C:/Users/Z0212095/STM32CubeIDE/workspace_1.14.0/HeatingMask/ThirdParty/FreeRTOS/include/FreeRTOS.h:
-C:/Users/Z0212095/STM32CubeIDE/workspace_1.14.0/HeatingMask/ThirdParty/FreeRTOS/FreeRTOSConfig.h:
-C:/Users/Z0212095/STM32CubeIDE/workspace_1.14.0/HeatingMask/ThirdParty/FreeRTOS/include/projdefs.h:
-C:/Users/Z0212095/STM32CubeIDE/workspace_1.14.0/HeatingMask/ThirdParty/FreeRTOS/include/portable.h:
-C:/Users/Z0212095/STM32CubeIDE/workspace_1.14.0/HeatingMask/ThirdParty/FreeRTOS/include/deprecated_definitions.h:
-C:/Users/Z0212095/STM32CubeIDE/workspace_1.14.0/HeatingMask/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F/portmacro.h:
-C:/Users/Z0212095/STM32CubeIDE/workspace_1.14.0/HeatingMask/ThirdParty/FreeRTOS/include/mpu_wrappers.h:
-C:/Users/Z0212095/STM32CubeIDE/workspace_1.14.0/HeatingMask/ThirdParty/FreeRTOS/include/task.h:
-C:/Users/Z0212095/STM32CubeIDE/workspace_1.14.0/HeatingMask/ThirdParty/FreeRTOS/include/list.h:
+ /home/stefan/STM32CubeIDE/workspace_1.16.0/HeatingMask/HM/Drivers/Adc.h \
+ /home/stefan/STM32CubeIDE/workspace_1.16.0/HeatingMask/HM/Drivers/HC05.h \
+ /home/stefan/STM32CubeIDE/workspace_1.16.0/HeatingMask/HM/Drivers/Adc.h
+/home/stefan/STM32CubeIDE/workspace_1.16.0/HeatingMask/ThirdParty/FreeRTOS/include/FreeRTOS.h:
+/home/stefan/STM32CubeIDE/workspace_1.16.0/HeatingMask/ThirdParty/FreeRTOS/FreeRTOSConfig.h:
+/home/stefan/STM32CubeIDE/workspace_1.16.0/HeatingMask/ThirdParty/FreeRTOS/include/projdefs.h:
+/home/stefan/STM32CubeIDE/workspace_1.16.0/HeatingMask/ThirdParty/FreeRTOS/include/portable.h:
+/home/stefan/STM32CubeIDE/workspace_1.16.0/HeatingMask/ThirdParty/FreeRTOS/include/deprecated_definitions.h:
+/home/stefan/STM32CubeIDE/workspace_1.16.0/HeatingMask/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F/portmacro.h:
+/home/stefan/STM32CubeIDE/workspace_1.16.0/HeatingMask/ThirdParty/FreeRTOS/include/mpu_wrappers.h:
+/home/stefan/STM32CubeIDE/workspace_1.16.0/HeatingMask/ThirdParty/FreeRTOS/include/task.h:
+/home/stefan/STM32CubeIDE/workspace_1.16.0/HeatingMask/ThirdParty/FreeRTOS/include/list.h:
 ../Core/Inc/main.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:
 ../Core/Inc/stm32f4xx_hal_conf.h:
@@ -85,6 +85,6 @@ C:/Users/Z0212095/STM32CubeIDE/workspace_1.14.0/HeatingMask/ThirdParty/FreeRTOS/
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:
 ../HM/Tasks/Tasks.h:
-C:/Users/Z0212095/STM32CubeIDE/workspace_1.14.0/HeatingMask/HM/Drivers/Adc.h:
-C:/Users/Z0212095/STM32CubeIDE/workspace_1.14.0/HeatingMask/HM/Drivers/HC05.h:
-C:/Users/Z0212095/STM32CubeIDE/workspace_1.14.0/HeatingMask/HM/Drivers/Adc.h:
+/home/stefan/STM32CubeIDE/workspace_1.16.0/HeatingMask/HM/Drivers/Adc.h:
+/home/stefan/STM32CubeIDE/workspace_1.16.0/HeatingMask/HM/Drivers/HC05.h:
+/home/stefan/STM32CubeIDE/workspace_1.16.0/HeatingMask/HM/Drivers/Adc.h:
