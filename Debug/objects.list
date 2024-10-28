@@ -26,6 +26,7 @@
 "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.o"
 "./HM/Drivers/Adc.o"
 "./HM/Drivers/HC05.o"
+"./HM/Drivers/Uart.o"
 "./HM/Tasks/Tasks.o"
 "./ThirdParty/FreeRTOS/croutine.o"
 "./ThirdParty/FreeRTOS/event_groups.o"
