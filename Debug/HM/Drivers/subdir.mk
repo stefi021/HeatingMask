@@ -5,19 +5,25 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
-../HM/Drivers/Adc.c \
-../HM/Drivers/HC05.c \
-../HM/Drivers/Uart.c 
+../HM/Drivers/PositionButton.c \
+../HM/Drivers/gpio.c \
+../HM/Drivers/rcc.c \
+../HM/Drivers/timer.c \
+../HM/Drivers/uart.c 
 
 OBJS += \
-./HM/Drivers/Adc.o \
-./HM/Drivers/HC05.o \
-./HM/Drivers/Uart.o 
+./HM/Drivers/PositionButton.o \
+./HM/Drivers/gpio.o \
+./HM/Drivers/rcc.o \
+./HM/Drivers/timer.o \
+./HM/Drivers/uart.o 
 
 C_DEPS += \
-./HM/Drivers/Adc.d \
-./HM/Drivers/HC05.d \
-./HM/Drivers/Uart.d 
+./HM/Drivers/PositionButton.d \
+./HM/Drivers/gpio.d \
+./HM/Drivers/rcc.d \
+./HM/Drivers/timer.d \
+./HM/Drivers/uart.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
@@ -27,7 +33,7 @@ HM/Drivers/%.o HM/Drivers/%.su HM/Drivers/%.cyclo: ../HM/Drivers/%.c HM/Drivers/
 clean: clean-HM-2f-Drivers
 
 clean-HM-2f-Drivers:
-	-$(RM) ./HM/Drivers/Adc.cyclo ./HM/Drivers/Adc.d ./HM/Drivers/Adc.o ./HM/Drivers/Adc.su ./HM/Drivers/HC05.cyclo ./HM/Drivers/HC05.d ./HM/Drivers/HC05.o ./HM/Drivers/HC05.su ./HM/Drivers/Uart.cyclo ./HM/Drivers/Uart.d ./HM/Drivers/Uart.o ./HM/Drivers/Uart.su
+	-$(RM) ./HM/Drivers/PositionButton.cyclo ./HM/Drivers/PositionButton.d ./HM/Drivers/PositionButton.o ./HM/Drivers/PositionButton.su ./HM/Drivers/gpio.cyclo ./HM/Drivers/gpio.d ./HM/Drivers/gpio.o ./HM/Drivers/gpio.su ./HM/Drivers/rcc.cyclo ./HM/Drivers/rcc.d ./HM/Drivers/rcc.o ./HM/Drivers/rcc.su ./HM/Drivers/timer.cyclo ./HM/Drivers/timer.d ./HM/Drivers/timer.o ./HM/Drivers/timer.su ./HM/Drivers/uart.cyclo ./HM/Drivers/uart.d ./HM/Drivers/uart.o ./HM/Drivers/uart.su
 
 .PHONY: clean-HM-2f-Drivers
 

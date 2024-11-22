@@ -1,3 +1,0 @@
-../HM/Drivers/HC05.c:16:6:GetChar	4	static
-../HM/Drivers/HC05.c:22:6:GetString	24	static
-../HM/Drivers/HC05.c:52:6:sendDataOverBT	24	static

@@ -1,3 +1,0 @@
-../HM/Drivers/HC05.c:16:6:GetChar	2
-../HM/Drivers/HC05.c:22:6:GetString	5
-../HM/Drivers/HC05.c:52:6:sendDataOverBT	2
