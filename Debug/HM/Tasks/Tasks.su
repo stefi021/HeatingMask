@@ -1,6 +1,5 @@
-../HM/Tasks/Tasks.c:33:6:initTasks	48	static,ignoring_inline_asm
-../HM/Tasks/Tasks.c:56:7:adc_handler	16	static
-../HM/Tasks/Tasks.c:78:7:uart_handler	16	static
-../HM/Tasks/Tasks.c:87:6:switch_handler	16	static
-../HM/Tasks/Tasks.c:125:6:setPWM	24	static
-../HM/Tasks/Tasks.c:134:6:HAL_UART_RxCpltCallback	16	static
+../HM/Tasks/Tasks.c:31:6:initTasks	40	static,ignoring_inline_asm
+../HM/Tasks/Tasks.c:53:7:uart_handler	16	static
+../HM/Tasks/Tasks.c:62:6:switch_handler	16	static
+../HM/Tasks/Tasks.c:97:6:setPWM	24	static
+../HM/Tasks/Tasks.c:106:6:HAL_UART_RxCpltCallback	16	static
