@@ -5,18 +5,15 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
-../HM/Drivers/Adc.c \
-../HM/Drivers/HC05.c \
+../HM/Drivers/PositionButton.c \
 ../HM/Drivers/Uart.c 
 
 OBJS += \
-./HM/Drivers/Adc.o \
-./HM/Drivers/HC05.o \
+./HM/Drivers/PositionButton.o \
 ./HM/Drivers/Uart.o 
 
 C_DEPS += \
-./HM/Drivers/Adc.d \
-./HM/Drivers/HC05.d \
+./HM/Drivers/PositionButton.d \
 ./HM/Drivers/Uart.d 
 
 
@@ -27,7 +24,7 @@ HM/Drivers/%.o HM/Drivers/%.su HM/Drivers/%.cyclo: ../HM/Drivers/%.c HM/Drivers/
 clean: clean-HM-2f-Drivers
 
 clean-HM-2f-Drivers:
-	-$(RM) ./HM/Drivers/Adc.cyclo ./HM/Drivers/Adc.d ./HM/Drivers/Adc.o ./HM/Drivers/Adc.su ./HM/Drivers/HC05.cyclo ./HM/Drivers/HC05.d ./HM/Drivers/HC05.o ./HM/Drivers/HC05.su ./HM/Drivers/Uart.cyclo ./HM/Drivers/Uart.d ./HM/Drivers/Uart.o ./HM/Drivers/Uart.su
+	-$(RM) ./HM/Drivers/PositionButton.cyclo ./HM/Drivers/PositionButton.d ./HM/Drivers/PositionButton.o ./HM/Drivers/PositionButton.su ./HM/Drivers/Uart.cyclo ./HM/Drivers/Uart.d ./HM/Drivers/Uart.o ./HM/Drivers/Uart.su
 
 .PHONY: clean-HM-2f-Drivers
 
